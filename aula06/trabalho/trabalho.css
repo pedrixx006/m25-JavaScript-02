@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("https://provafacilnaweb.com.br/wp-content/uploads/2018/10/conhecimento-em-sala-de-aula-1024x683-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: black;
+    font-weight: bold;
+}
+nav {
+    display: block;
+    text-align: center;
+    background-color: black;
+}
+section h2 {
+    text-align: center;
+}
+footer {
+ margin: 50vh 0 0 0;
+ background-color: rgba(255, 0, 0, 0.50);
+}
